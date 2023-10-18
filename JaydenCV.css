@@ -1,0 +1,105 @@
+
+/* Style the body */
+body {
+	font-family: "Times New Roman", Times, serif;
+  	margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=3540');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+
+
+}
+title{
+	text-align: center;
+}
+h1 {
+  text-align: center;
+}
+h2{
+	text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+h5 {
+  text-align: center;
+}
+h6 {
+  text-align: center;
+}
+/* Style the top navigation bar */
+.navBar {
+	float: left;
+  background-color: White;
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 100%;
+}
+
+/* Column container */
+.colContainer {
+display: table;  
+  width:100%;
+}
+
+table{
+	border-collapse: collapse;
+	width:100%;
+}
+td{
+	text-align:center;
+}
+p{
+	text-align:center;
+}
+
+/* Left Column */
+.sideCol {
+	display: table-cell;/*
+  width: 30%;
+  height: 100%;
+  
+ float: left;
+ display: inline-block;
+ */
+background-color: #5dade2;
+}
+
+/* Main column */
+.mainCol { 
+display: table-cell;
+/* 
+  width: 70%;
+  height: 100%;
+  
+  float: left;
+   display: inline-block;
+   */
+ background-color: #7fb3d5 
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+}
