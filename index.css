@@ -1,11 +1,9 @@
 
-/* Style the body */
 body {
 	font-family: "Times New Roman", Times, serif;
   	margin: 0;
 }
 
-/* Header/logo Title */
 .header {
   padding: 80px;
   text-align: center;
@@ -43,7 +41,6 @@ h5 {
 h6 {
   text-align: center;
 }
-/* Style the top navigation bar */
 .navBar {
 	float: left;
   background-color: White;
@@ -56,7 +53,6 @@ h6 {
   width: 100%;
 }
 
-/* Column container */
 .colContainer {
 display: table;  
   width:100%;
@@ -73,28 +69,13 @@ p{
 	text-align:center;
 }
 
-/* Left Column */
 .sideCol {
-	display: table-cell;/*
-  width: 30%;
-  height: 100%;
-  
- float: left;
- display: inline-block;
- */
+	display: table-cell;
 background-color: #5dade2;
 }
 
-/* Main column */
 .mainCol { 
 display: table-cell;
-/* 
-  width: 70%;
-  height: 100%;
-  
-  float: left;
-   display: inline-block;
-   */
  background-color: #7fb3d5 
 }
 
